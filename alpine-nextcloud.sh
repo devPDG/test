@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -s https://raw.githubusercontent.com/tteck/Proxmox/main/misc/build.func)
+source <(curl -s https://raw.githubusercontent.com/devPDG/Proxmox/devPDG/build.func)
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
 # License: MIT
@@ -23,7 +23,7 @@ var_disk="2"
 var_cpu="2"
 var_ram="1024"
 var_os="alpine"
-var_version="3.19"
+var_version="3.20"
 variables
 color
 catch_errors
